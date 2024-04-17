@@ -1,6 +1,6 @@
 # Voting Application
 
-This project is a web application for conducting elections where users can vote for a set of candidates. It includes user authentication, candidate management, and live vote count tracking.
+This project is a API for conducting elections where users can vote for a set of candidates. It includes user authentication, candidate management, and live vote count tracking.
 
 ## Features
 
@@ -43,7 +43,8 @@ This project is a web application for conducting elections where users can vote 
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript (or any frontend framework like React, Angular, Vue.js)
+<!-- - **Frontend**: HTML, CSS, JavaScript (or any frontend framework like React, Angular, Vue.js) -->
+
 - **Backend**: Node.js with Express.js
 - **Database**: MongoDB
 - **Authentication**: JWT (JSON Web Tokens)
@@ -52,6 +53,7 @@ This project is a web application for conducting elections where users can vote 
 
 1. Clone the repository.
 2. Install dependencies using `npm install`.
-3. Set up MongoDB and configure the connection.
-4. Run the server using `npm start`.
-5. Access the application through the provided routes.
+3. Set up MONGO_URL and PORT in .env file (same as .env.sample) 
+4. Set up MongoDB and configure the connection.
+5. Run the server using `npm start`.
+6. Access the application through the provided routes.
